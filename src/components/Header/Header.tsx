@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "../ui/button";
 import ThemeSwitcher from "../Theme/ThemeSwitcher";
+import { buttonVariants } from "../ui/button";
 
 const Header = () => {
   return (
@@ -12,7 +12,14 @@ const Header = () => {
             <span>Insynkexpns.</span>
           </Link>
           <div className="flex items-center justify-center gap-4">
-            <Button>Add Expense</Button>
+            <Link
+              href="/addexpense"
+              className={buttonVariants({
+                size: "sm",
+              })}
+            >
+              Add Expense
+            </Link>
             <ThemeSwitcher />
           </div>
         </div>
