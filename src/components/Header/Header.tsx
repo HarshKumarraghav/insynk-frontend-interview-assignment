@@ -13,7 +13,7 @@ const Header = () => {
           </Link>
           <div className="flex items-center justify-center gap-4">
             <Link
-              href="/addexpense"
+              href="/expense"
               className={buttonVariants({
                 size: "sm",
               })}
