@@ -12,6 +12,7 @@ const Header = () => {
             <span>Insynkexpns.</span>
           </Link>
           <div className="flex items-center justify-center gap-4">
+            {/* Add Expense */}
             <Link
               href="/expense"
               className={buttonVariants({
@@ -20,7 +21,7 @@ const Header = () => {
             >
               Add Expense
             </Link>
-            <ThemeSwitcher />
+            {/* themeswitcher */}
             <ThemeSwitcher />
           </div>
         </div>
