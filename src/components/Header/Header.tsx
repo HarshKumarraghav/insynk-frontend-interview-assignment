@@ -21,6 +21,7 @@ const Header = () => {
               Add Expense
             </Link>
             <ThemeSwitcher />
+            <ThemeSwitcher />
           </div>
         </div>
       </div>
